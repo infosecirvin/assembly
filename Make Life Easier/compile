@@ -1,7 +1,0 @@
-#!/bin/bash
-#I used this script to make my life easier in compiling code for "Some Assembly Required" levels.
-#Feel free to use it as well.
-#Note 1: Make this script executable to use; put it in the folder where you are working in.
-#Note 2: I used the filename "pr" for no real reason other than that's what I first typed.
-nasm -g -f elf32 -o pr.o pr.asm
-gcc -g -m32 -o pr pr.o
