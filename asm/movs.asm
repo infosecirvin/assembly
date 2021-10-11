@@ -5,8 +5,8 @@ _start:
     mov ecx, len
     mov esi, s1
     mov edi, s2
-    cld           ;rep prefix to clear directional flag
-    rep movsb     ;rep will move string left to right
+    cld
+    rep movsb
 
     mov edx,20
     mov ecx,s2

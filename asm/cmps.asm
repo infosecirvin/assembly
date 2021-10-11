@@ -33,7 +33,7 @@ section	.data
 s1 db 'Hello, world!',0
 lens1 equ $-s1
 
-s2 db 'Hello, there!', 0
+s2 db 'Hallo, world!', 0
 lens2 equ $-s2
 
 msg_eq db 'Strings are equal!', 0xa

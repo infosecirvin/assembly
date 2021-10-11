@@ -20,7 +20,7 @@ _start:
     mov eax,3 ; Read and store user input
     mov ebx,2
     mov ecx,num
-    mov edx,5 ; 5 bytes (numberic)
+    mov edx,5 ; 5 bytes (numeric)
     int 80h
 
     mov eax,4 ; Output 'You entered'

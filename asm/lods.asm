@@ -24,7 +24,7 @@ loop_here:
    int 0x80
 
 section .data
-s1 db 'password', 0
+s1 db 'aardvark', 0
 len equ $-s1
 
 section .bss
